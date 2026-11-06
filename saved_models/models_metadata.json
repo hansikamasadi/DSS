@@ -1,0 +1,57 @@
+{
+  "Decision Tree": {
+    "name": "Decision Tree",
+    "filename": "decision_tree_model.joblib",
+    "accuracy": 63.19,
+    "rocAuc": 0.701,
+    "precision": 64.22,
+    "recall": 81.07,
+    "f1": 71.67,
+    "brier": 0.217,
+    "badge": "Standard"
+  },
+  "Logistic Regression": {
+    "name": "Logistic Regression",
+    "filename": "logistic_regression_model.joblib",
+    "accuracy": 69.69,
+    "rocAuc": 0.751,
+    "precision": 70.55,
+    "recall": 81.07,
+    "f1": 75.44,
+    "brier": 0.199,
+    "badge": "Standard"
+  },
+  "Random Forest": {
+    "name": "Random Forest",
+    "filename": "random_forest_model.joblib",
+    "accuracy": 68.38,
+    "rocAuc": 0.749,
+    "precision": 67.91,
+    "recall": 85.2,
+    "f1": 75.58,
+    "brier": 0.203,
+    "badge": "Counterfactual Base"
+  },
+  "Support Vector Machine": {
+    "name": "Support Vector Machine",
+    "filename": "support_vector_machine_model.joblib",
+    "accuracy": 69.38,
+    "rocAuc": 0.75,
+    "precision": 69.92,
+    "recall": 81.94,
+    "f1": 75.45,
+    "brier": 0.199,
+    "badge": "Standard"
+  },
+  "XGBoost": {
+    "name": "XGBoost",
+    "filename": "xgboost_model.joblib",
+    "accuracy": 69.5,
+    "rocAuc": 0.741,
+    "precision": 70.47,
+    "recall": 80.74,
+    "f1": 75.25,
+    "brier": 0.201,
+    "badge": "Recommended"
+  }
+}
